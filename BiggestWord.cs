@@ -8,7 +8,7 @@ namespace LongestWord
         {
             //C:\Users\Jacob\Desktop\words_alpha.txt
             //Ask for location of the file
-            Console.WriteLine("Location of file that you want to be read");
+            Console.WriteLine("Location of text file you want to be read");
             string filename = Console.ReadLine();
             string[] words = System.IO.File.ReadAllLines(@filename);
             string biggestWord = "";
